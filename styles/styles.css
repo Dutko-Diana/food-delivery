@@ -69,6 +69,11 @@ body {
             cursor: pointer;
 }
 
+.main-btn:hover,
+.main-btn:focus {
+background-color: #ffe450;
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -78,8 +83,6 @@ body {
     padding-top: 14px;
     padding-bottom: 69px;
 }
-
-.container {}
 
 .hero-title {
         font-size: 48px;
@@ -92,8 +95,6 @@ body {
         line-height: 1.5;
         margin-bottom: 40px;
 }
-
-.main-btn {}
 
 .hero-container {
     display: flex;
@@ -157,6 +158,12 @@ body {
     border: 2px solid #7eb101;
 }
 
+.offerings .main-btn:hover,
+.offerings .main-btn:focus {
+    background-color: #bbf330;
+    border: none;
+}
+
 .features {
     padding-top: 120px;
     padding-bottom: 101px;
@@ -181,4 +188,61 @@ body {
 
 .features-list-item {
     width: calc((100% - 64px) / 3);
+}
+
+.reviews {
+    padding-top: 140px;
+    padding-bottom: 126px;
+    background-color: #ffe550;
+}
+
+.reviews-title {
+        font-size: 42px;
+        margin-bottom: 20.4px;
+        max-width: 501px;
+}
+
+.reviews-text {
+    font-size: 16px;
+    margin-bottom: 32.65px;
+    max-width: 537px;
+}
+
+.reviews-list {
+    display: flex;
+    gap: 139px;
+}
+
+.reviews-list-item {
+    background-color: #fefefe;
+    padding: 14px;
+    width: 501px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.reviews-item-text {
+    font-size: 18px;
+    margin-top: 28.56px;
+    margin-bottom: 41.14px;
+}
+
+.reviewers-wrapper {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    max-width: 160px;
+}
+
+.reviewer-name {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 2px;
+}
+
+.reviewer-prof {
+        font-size: 14px;
+        line-height: 1.5;
 }
