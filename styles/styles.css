@@ -27,7 +27,7 @@ body {
     padding: 0 16px;
 }
 
-.header {}
+
 
 .logo {
     margin-right: auto;
@@ -245,4 +245,156 @@ background-color: #ffe450;
 .reviewer-prof {
         font-size: 14px;
         line-height: 1.5;
+}
+
+.subscribe {
+    padding-top: 176px;
+    padding-bottom: 201px;
+}
+
+.subscribe-title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    max-width: 656px;
+}
+
+.subscribe-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    max-width: 532px;
+}
+
+.subscribe-input {
+    border: 0.85px solid #ffe550;
+        border-radius: 30px;
+        padding: 10px;
+        width: 395px;
+        background-color: #fefefe;
+            font-size: 12px;
+            line-height: 1.5;
+            margin-right: 32px;
+}
+
+.subscribe-btn {
+    cursor: pointer;
+    background-color: #bbf330;
+    border-radius: 30px;
+    border: none;
+        padding: 10px 20px;
+        min-width: 103px;
+        font-weight: 500;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #2c2c2c;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    background: #ffe450;
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+background: #fefefe;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.container {}
+
+.logo-footer {
+    margin-right: 143px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 28px;
+    margin-right: auto;
+}
+
+.footer-link {
+        font-size: 14px;
+        color: #2c2c2c;
+}
+
+.footer-call {
+    display: block;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 12px;
+        max-width: 342px;
+}
+
+.footer-input {
+    border: 0.85px solid #ffe550;
+        border-radius: 30px;
+        padding: 10px;
+        width: 279px;
+            font-size: 12px;
+            line-height: 1.5;
+            margin-right: 13px;
+            margin-bottom: 12px;
+}
+
+.footer-btn {
+    cursor: pointer;
+    border: 0.85px solid #7eb101;
+        border-radius: 30px;
+        padding: 10px 20px;
+        min-width: 103px;
+        background-color: #fff;
+        font-weight: 500;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #2c2c2c;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+border-color: #ffe450;;
+}
+
+.privacy-policy {
+    font-size: 12px;
+}
+
+.policy-link {
+    text-decoration: underline;
+        color: #7eb101;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-list-item {
+        font-size: 12px;
+        text-decoration: underline;
+        color: #7eb101;
+}
+
+.rights {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.bottom-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
